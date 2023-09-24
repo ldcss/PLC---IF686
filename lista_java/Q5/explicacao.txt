@@ -1,0 +1,9 @@
+A coesão se refere ao grau em que os membros de uma classe estão relacionados, ou seja, 
+classes coesas tem métodos e atributos que estão relacionados ao seu papel no programa/sistema.
+Já o acoplamento é a o grau de dependência das classes. Nesse caso, um baixo acoplamento 
+significa que as classes são independentes e podem ser modificadas sem afetar outras classes
+ou partes do sistema. Já o encapsulamento envolve a restrição de acesso aos membros de uma classe
+(geralmente atributos), ajudando a acontrolar o comportamento da classe e mantendo o baixo acoplamento.
+Em suma, estes 3 conceitos sao principios importantes para a programação orientada a objetos,
+de modo que seja possível criar classes bem definidas e independentes, reduzindo as dependências 
+e protegendo o estado interno das classes.

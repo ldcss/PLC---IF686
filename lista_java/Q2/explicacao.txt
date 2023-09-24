@@ -1,0 +1,21 @@
+Classe concreta: Utilizando classe concreta, poderiamos representar os diferentes tipos de veículos disponíveis como carros, bicicletas 
+e motos nos seguintes casos: 1 - Quando há pouca ou nenhuma reutilização de código, visto que os tipos de veículos não compartilhariam muitos
+comportamentos ou propriedades em comum, nesse caso não haveria benefícios ao utilizar classe abstrata ou interface, pois não há 
+(ou há muito pouca) reutilização de código; 2 - Baixa extensibilidade, isto é, caso o sistema não necessite adicionar diferentes tipos
+de veículos no futuro; 3 - Comportamento específico, visto que não há uma reutilização do código, é necessário  criar codigos novos
+para justificar cada ação específico de cada veículo.
+
+
+Classe abstrata: Para classe abstrata, poderiamos representar os diferentes tipos de veiculos nos seguintes casos: 1 - Com reutilização de 
+código no que diz respeito ao compartilhamento de comportamento e lógica das classes, podendo representar estes mesmo atributos na classe 
+abstrata e herdando-as na classe concreta; 2 - Caso a locadora deseje aumentar o estoque de veículos, de diversos tipos, pode utilizar o mesmo
+código utilizado para escrever a classe abstrata e, em cima dessa classe, criar classes concretas  dos diversos tipos de veículos, promovendo
+alta extensibilidade; 3 - As clases abstratas permitem definir atributos e métodos que definem comportamentos posteriormente utilizados
+por cada classe concreta, mantendo a estrutura comum de todas as classes.
+
+Interface: Utilizaria interfaces de acordo com os fatores mencionados como: 1 - reutilização de código quando os tipos de veículos
+não possuem implementação em comum, isto é, cada tipo de veículo requer funcionalidades e comportamentos diferentes, permitindo que cada
+classe concreta implemente seus métodos; 2 - interfaces garantem extensabilidade visto que ao adicionar novos tipos de veículos no sistema
+a criação de interfaces que definem os comportamentos esperados torna bem mais fácil incorporar as classes com essas interfaces; 3 - também 
+há uma maior usabilidade de polimorfismo, visto que você pode tratar objetos de diferentes tipos que implementam a mesma interface de maneira
+uniforme. Logo, sendo útil quando temos que tratar os veículos de forma genérica em determinados cenários, como  cálculos de custos de aluguel.
